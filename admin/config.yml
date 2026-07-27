@@ -7,6 +7,7 @@ public_folder: "images"
 
 site_url: https://vow-and-vice.netlify.app
 display_url: https://vow-and-vice.netlify.app
+logo_url: /images/logo-mark.png
 
 collections:
   - name: "products"

@@ -1,0 +1,7 @@
+html, body, input, textarea, select, button {
+  font-family: 'Jost', 'Helvetica Neue', Arial, sans-serif !important;
+}
+
+.netlify-identity-widget {
+  --primary-color: #6B4A2E;
+}

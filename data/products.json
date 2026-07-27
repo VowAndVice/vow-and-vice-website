@@ -16,13 +16,13 @@
       "images": [
         {
           "type": "art",
-          "src": "images/front.png",
+          "src": "images/chatgpt-image-jul-27-2026-05_26_11-pm.png",
           "bg": "bg-forest",
           "label": "Front — Signature Vow & Vice Emblem"
         },
         {
           "type": "art",
-          "src": "images/some-stories-are-destined.png",
+          "src": "",
           "bg": "bg-forest",
           "label": "Back — \"Some Stories Are Destined\" Artwork"
         },

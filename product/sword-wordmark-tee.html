@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sword &amp; Wordmark Tee — Vow &amp; Vice</title>
+<meta name="description" content="Sword &amp; Wordmark Tee — the Vow &amp; Vice house mark in antique gold on soft charcoal cotton.">
+<link rel="icon" href="../images/logo-mark.png">
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+<a href="#main" class="skip-link">Skip to content</a>
+
+<header class="site-header">
+  <div class="header-inner">
+    <nav class="nav-primary">
+      <a href="../index.html">Home</a>
+      <a href="../shop.html" class="active">Shop</a>
+      <a href="../about.html">About</a>
+    </nav>
+    <a href="../index.html" class="brand-logo"><img src="../images/logo-mark.png" alt="Vow & Vice"></a>
+    <div class="nav-secondary">
+      <a href="../faq.html" class="nav-text-link">FAQ</a>
+      <a href="../contact.html" class="nav-text-link">Contact</a>
+      <a href="../cart.html" class="icon-btn" data-cart-open aria-label="Open cart">
+        Cart <span class="cart-count">0</span>
+      </a>
+    </div>
+    <button class="nav-toggle" aria-label="Open menu"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<div class="mobile-nav">
+  <button class="mobile-nav-close" aria-label="Close menu">&times;</button>
+  <a href="../index.html">Home</a>
+  <a href="../shop.html">Shop</a>
+  <a href="../about.html">About</a>
+  <a href="../faq.html">FAQ</a>
+  <a href="../contact.html">Contact</a>
+  <a href="../cart.html">Cart</a>
+</div>
+
+<main id="main">
+  <div class="container">
+    <div class="product-detail">
+      <div class="gallery">
+        <div class="gallery-main" id="galleryMain"></div>
+        <div class="gallery-thumbs" id="galleryThumbs"></div>
+      </div>
+      <div class="pd-info">
+        <span class="cat" id="pdCategory"></span>
+        <h1 id="pdName"></h1>
+        <div class="price" id="pdPrice"></div>
+        <p class="desc" id="pdShort"></p>
+
+        <div>
+          <span class="eyebrow" style="display:block;margin-bottom:10px;">Size</span>
+          <div class="size-selector" id="sizeSelector"></div>
+          <a href="#sizing" class="size-guide-link" data-accordion-jump="sizing">View Sizing Guide</a>
+        </div>
+
+        <div class="qty-row">
+          <span class="eyebrow" style="margin:0;">Quantity</span>
+          <div class="qty-control">
+            <button id="qtyMinus" aria-label="Decrease quantity">&minus;</button>
+            <span id="qtyDisplay">1</span>
+            <button id="qtyPlus" aria-label="Increase quantity">&plus;</button>
+          </div>
+        </div>
+
+        <div class="pd-actions">
+          <button class="btn btn-primary btn-block" id="addToCartBtn">Add to Cart</button>
+        </div>
+        <p class="add-note" id="addNote"></p>
+
+        <div class="accordion" id="pdAccordion">
+          <div class="accordion-item" data-group="pd">
+            <button class="accordion-trigger"><span>Description</span><span class="plus">+</span></button>
+            <div class="accordion-panel"><div class="accordion-panel-inner" id="pdDescription"></div></div>
+          </div>
+          <div class="accordion-item" data-group="pd">
+            <button class="accordion-trigger"><span>Materials</span><span class="plus">+</span></button>
+            <div class="accordion-panel"><div class="accordion-panel-inner"><span id="pdMaterials"></span><br><br>Color: <span id="pdColor"></span></div></div>
+          </div>
+          <div class="accordion-item" data-group="pd" id="sizingAccordion">
+            <button class="accordion-trigger"><span>Sizing Guide</span><span class="plus">+</span></button>
+            <div class="accordion-panel"><div class="accordion-panel-inner">
+              <table style="width:100%; border-collapse:collapse; font-size:13px;">
+                <tr style="border-bottom:1px solid rgba(43,36,28,0.12);"><td style="padding:6px 0;">Size</td><td>Chest (in)</td><td>Length (in)</td></tr>
+                <tr style="border-bottom:1px solid rgba(43,36,28,0.08);"><td style="padding:6px 0;">XS</td><td>36–38</td><td>26</td></tr>
+                <tr style="border-bottom:1px solid rgba(43,36,28,0.08);"><td style="padding:6px 0;">S</td><td>38–40</td><td>27</td></tr>
+                <tr style="border-bottom:1px solid rgba(43,36,28,0.08);"><td style="padding:6px 0;">M</td><td>40–42</td><td>28</td></tr>
+                <tr style="border-bottom:1px solid rgba(43,36,28,0.08);"><td style="padding:6px 0;">L</td><td>42–45</td><td>29</td></tr>
+                <tr style="border-bottom:1px solid rgba(43,36,28,0.08);"><td style="padding:6px 0;">XL</td><td>45–48</td><td>30</td></tr>
+                <tr><td style="padding:6px 0;">XXL</td><td>48–51</td><td>31</td></tr>
+              </table>
+              <p style="margin-top:12px;">Fits true to size with a relaxed, unisex cut. Between sizes? We recommend sizing down for a closer fit.</p>
+            </div></div>
+          </div>
+          <div class="accordion-item" data-group="pd">
+            <button class="accordion-trigger"><span>Shipping</span><span class="plus">+</span></button>
+            <div class="accordion-panel"><div class="accordion-panel-inner">Made to order — please allow 5–8 business days for production before your piece ships. Standard shipping is 3–6 business days thereafter; expedited options are available at checkout.</div></div>
+          </div>
+          <div class="accordion-item" data-group="pd">
+            <button class="accordion-trigger"><span>Care Instructions</span><span class="plus">+</span></button>
+            <div class="accordion-panel"><div class="accordion-panel-inner" id="pdCare"></div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section class="section">
+    <div class="container">
+      <div class="related-heading reveal">
+        <span class="eyebrow">You May Also Love</span>
+        <h2>Complete the Story</h2>
+      </div>
+      <div class="product-grid" id="relatedGrid"></div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <img src="../images/logo-mark.png" alt="Vow & Vice">
+        <p>For the stories we dream of &amp; the ones that ruin us. Premium, made-to-order apparel for the romantic and the a little bit ruined.</p>
+        <div class="footer-social">
+          <a href="#" aria-label="Instagram"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg></a>
+          <a href="#" aria-label="TikTok"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M15.5 2h-3v13.6a2.6 2.6 0 1 1-2-2.53V9.9a6 6 0 1 0 5 5.92V9.2a7.7 7.7 0 0 0 4 1.13V7.2A4.9 4.9 0 0 1 15.5 2Z"/></svg></a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Navigate</h4>
+        <a href="../shop.html">Shop</a>
+        <a href="../about.html">About</a>
+        <a href="../faq.html">FAQ</a>
+        <a href="../contact.html">Contact</a>
+      </div>
+      <div class="footer-col">
+        <h4>Policies</h4>
+        <a href="../faq.html#shipping">Shipping</a>
+        <a href="../faq.html#returns">Returns</a>
+        <a href="../faq.html#sizing">Sizing</a>
+        <a href="../faq.html#care">Care Instructions</a>
+      </div>
+      <div class="footer-col">
+        <h4>Become Part of the Story</h4>
+        <p style="margin-bottom:16px;">Join our list for early access and studio notes.</p>
+        <form class="newsletter-form" style="justify-content:flex-start;" name="newsletter" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/thank-you-newsletter.html">
+          <input type="hidden" name="form-name" value="newsletter">
+          <input type="email" name="email" placeholder="Your email" required aria-label="Email address">
+          <button class="btn btn-primary" type="submit">Join</button>
+        </form>
+        <p class="form-success" style="margin-top:10px;">Welcome to the story.</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2026 Vow &amp; Vice. All rights reserved.</span>
+      <span>Designed for those who read past midnight.</span>
+    </div>
+  </div>
+</footer>
+
+<div class="overlay" id="cartOverlay"></div>
+<div class="cart-drawer" id="cartDrawer">
+  <div class="drawer-head"><h3>Your Bag</h3><button id="drawerClose" aria-label="Close cart">&times;</button></div>
+  <div class="drawer-items" id="drawerItems"></div>
+  <div class="drawer-foot" id="drawerFoot"></div>
+</div>
+
+<script src="../js/products.js"></script>
+<script src="../js/cart.js"></script>
+<script src="../js/product-page.js"></script>
+<script src="../js/main.js"></script>
+<script>
+  productsReady.then(() => initProductPage('sword-wordmark-tee'));
+  document.querySelector('[data-accordion-jump="sizing"]').addEventListener('click', (e) => {
+    e.preventDefault();
+    const item = document.getElementById('sizingAccordion');
+    const trigger = item.querySelector('.accordion-trigger');
+    if (!item.classList.contains('open')) trigger.click();
+    item.scrollIntoView({ behavior: 'smooth', block: 'center' });
+  });
+</script>
+</body>
+</html>

@@ -1,0 +1,92 @@
+{
+  "products": [
+  {
+    "slug": "signature-hoodie",
+    "name": "The Signature Hoodie",
+    "category": "Hoodies",
+    "price": 78,
+    "color": "Espresso Brown",
+    "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
+    "tag": "Signature",
+    "short": "Our flagship piece — a dragon in flight across the back, its crest resting quiet over the heart.",
+    "description": "Some things are worth guarding with your life. The Signature Hoodie was built for that kind of devotion — heavyweight, brushed-fleece cotton in a deep espresso brown, with a hand-inked dragon crest resting over the heart and its full wingspan unfurled across the back. It is the piece we imagined first, and the one the whole collection was built around.",
+    "materials": "400gsm heavyweight cotton-poly fleece blend. Brushed interior for softness. Ribbed cuffs and hem for structure that holds its shape wash after wash. Double-lined hood with matching drawcord.",
+    "care": "Machine wash cold, inside out, with like colors. Do not bleach. Tumble dry low or hang dry to protect the print. Warm iron on reverse only if needed — never iron directly over the artwork.",
+    "images": [
+      { "type": "art", "src": "images/print-dragon-crest.png", "bg": "bg-espresso", "label": "Front — Dragon Crest" },
+      { "type": "art", "src": "images/print-dragon-back.png", "bg": "bg-espresso", "label": "Back — Full Wingspan" },
+      { "type": "fabric", "bg": "bg-espresso", "label": "Espresso Brown Fleece" }
+    ]
+  },
+  {
+    "slug": "worth-the-ruin-sweatshirt",
+    "name": "Worth the Ruin Sweatshirt",
+    "category": "Sweatshirts",
+    "price": 64,
+    "color": "Deep Taupe",
+    "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
+    "tag": null,
+    "short": "For every heroine who chose the harder, truer thing. Gold script and scattered stars on deep taupe.",
+    "description": "There is a version of love that costs you something — and this piece is for the ones who paid it gladly. \"Worth the Ruin\" is lettered in antique gold down the sleeve, scattered with a quiet constellation, on a deep taupe fleece that feels like it's been loved for years already. Understated by day, unmistakable up close.",
+    "materials": "360gsm cotton-poly fleece with a soft brushed hand-feel. Relaxed, dropped-shoulder fit. Reinforced seams at the sleeve for a print that lasts.",
+    "care": "Machine wash cold, inside out. Do not bleach. Tumble dry low. Cool iron on reverse only, avoiding the artwork directly.",
+    "images": [
+      { "type": "art", "src": "images/print-worth-the-ruin.png", "bg": "bg-taupe", "label": "Sleeve Detail" },
+      { "type": "art", "src": "images/print-worth-the-ruin-stars.png", "bg": "bg-taupe", "label": "Star Cluster Detail" },
+      { "type": "fabric", "bg": "bg-taupe", "label": "Deep Taupe Fleece" }
+    ]
+  },
+  {
+    "slug": "love-made-a-weapon-sweatshirt",
+    "name": "Love Made a Weapon Sweatshirt",
+    "category": "Sweatshirts",
+    "price": 64,
+    "color": "Forest Green",
+    "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
+    "tag": null,
+    "short": "Crossed blades, a banner of gold, and a line that says everything: love made a weapon.",
+    "description": "Every romance worth remembering has an edge to it. Two crossed swords, wound in wildflowers and bound by a banner reading \"Love Made a Weapon,\" printed across the back of a forest green fleece as rich and quiet as an old library shelf. A piece for the ones who know that tenderness and ferocity were never opposites.",
+    "materials": "360gsm cotton-poly fleece, garment-dyed for depth of color. Relaxed unisex fit. Antique-gold ink print for a soft, worn-in metallic finish.",
+    "care": "Machine wash cold, inside out, with like colors. Do not bleach. Tumble dry low or hang to dry. Iron on reverse only, avoiding the print.",
+    "images": [
+      { "type": "art", "src": "images/print-love-weapon.png", "bg": "bg-forest", "label": "Back — Love Made a Weapon" },
+      { "type": "fabric", "bg": "bg-forest", "label": "Forest Green Fleece" },
+      { "type": "fabric", "bg": "bg-forest", "label": "Fabric Detail" }
+    ]
+  },
+  {
+    "slug": "sword-wordmark-tee",
+    "name": "Sword & Wordmark Tee",
+    "category": "Tees",
+    "price": 38,
+    "color": "Charcoal",
+    "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
+    "tag": null,
+    "short": "The house mark, quiet and gold — a rose-wound blade above the Vow & Vice name.",
+    "description": "The one to wear when you want the story to speak for itself. A single rose-wound blade rendered in antique gold, with the Vow & Vice wordmark resting beneath it, centered on soft charcoal cotton. Minimal, quietly ornate, and endlessly wearable.",
+    "materials": "180gsm 100% combed ring-spun cotton. Pre-shrunk for a true-to-size fit. Tear-away label. Antique-gold screen print.",
+    "care": "Machine wash cold, inside out. Do not bleach. Tumble dry low. Iron on reverse only, avoiding the artwork directly.",
+    "images": [
+      { "type": "art", "src": "images/logo-mark.png", "bg": "bg-charcoal", "label": "Front — Sword & Wordmark" },
+      { "type": "fabric", "bg": "bg-charcoal", "label": "Charcoal Cotton" }
+    ]
+  },
+  {
+    "slug": "dragon-crest-tee",
+    "name": "Dragon Crest Tee",
+    "category": "Tees",
+    "price": 38,
+    "color": "Dusty Mauve",
+    "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
+    "tag": null,
+    "short": "The Signature Hoodie's crest, scaled down onto soft dusty mauve cotton.",
+    "description": "A quieter way to carry the crest. The same dragon-and-blade emblem from our Signature Hoodie, scaled down and centered on dusty mauve cotton — soft, romantic, and easy to layer under everything else in the collection.",
+    "materials": "180gsm 100% combed ring-spun cotton. Pre-shrunk for a true-to-size fit. Tear-away label. Antique-gold screen print.",
+    "care": "Machine wash cold, inside out. Do not bleach. Tumble dry low. Iron on reverse only, avoiding the artwork directly.",
+    "images": [
+      { "type": "art", "src": "images/print-dragon-crest.png", "bg": "bg-mauve", "label": "Front — Dragon Crest" },
+      { "type": "fabric", "bg": "bg-mauve", "label": "Dusty Mauve Cotton" }
+    ]
+  }
+  ]
+}

@@ -1,0 +1,66 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "images"
+public_folder: "images"
+
+site_url: https://vow-and-vice.netlify.app
+display_url: https://vow-and-vice.netlify.app
+
+collections:
+  - name: "products"
+    label: "Products"
+    files:
+      - file: "data/products.json"
+        label: "Product Catalog"
+        name: "catalog"
+        description: "Edit prices, descriptions, sizes, and artwork for all 5 products here. Changing a product's URL Slug will break its page link, so leave that field alone unless you know what you're doing."
+        fields:
+          - label: "Products"
+            name: "products"
+            widget: "list"
+            summary: "{{name}} — ${{price}}"
+            fields:
+              - { label: "URL Slug (do not change)", name: "slug", widget: "string", hint: "Must exactly match the product page filename. Leave this alone." }
+              - { label: "Product Name", name: "name", widget: "string" }
+              - { label: "Category", name: "category", widget: "select", options: ["Hoodies", "Sweatshirts", "Tees"] }
+              - { label: "Price (USD)", name: "price", widget: "number", value_type: "float" }
+              - { label: "Color Name", name: "color", widget: "string" }
+              - { label: "Available Sizes", name: "sizes", widget: "list", default: ["XS", "S", "M", "L", "XL", "XXL"] }
+              - { label: "Badge Tag (e.g. Signature) — leave blank for none", name: "tag", widget: "string", required: false }
+              - { label: "Short Teaser (shown under gallery on product page)", name: "short", widget: "text" }
+              - { label: "Full Description", name: "description", widget: "text" }
+              - { label: "Materials", name: "materials", widget: "text" }
+              - { label: "Care Instructions", name: "care", widget: "text" }
+              - label: "Photos / Artwork"
+                name: "images"
+                widget: "list"
+                summary: "{{label}}"
+                fields:
+                  - { label: "Type", name: "type", widget: "select", options: ["art", "fabric"], hint: "'art' shows an uploaded picture. 'fabric' shows a plain color swatch card with no picture — used as a placeholder detail shot." }
+                  - { label: "Picture", name: "src", widget: "image", required: false, hint: "Only used when Type is 'art'." }
+                  - { label: "Background Color", name: "bg", widget: "select", options: ["bg-espresso", "bg-taupe", "bg-forest", "bg-charcoal", "bg-mauve", "bg-cream"] }
+                  - { label: "Caption", name: "label", widget: "string" }
+
+  - name: "site_content"
+    label: "Page Text"
+    files:
+      - file: "data/content.json"
+        label: "Homepage & About Page Text"
+        name: "content"
+        fields:
+          - { label: "Home — Small Word Above Headline", name: "home_hero_eyebrow", widget: "string" }
+          - { label: "Home — Headline (line 1)", name: "home_hero_headline_line1", widget: "string" }
+          - { label: "Home — Headline (line 2)", name: "home_hero_headline_line2", widget: "string" }
+          - { label: "Home — Subheading", name: "home_hero_subheading", widget: "text" }
+          - { label: "Home — Story Section Heading", name: "home_story_heading", widget: "string" }
+          - { label: "Home — Story Paragraph 1", name: "home_story_paragraph1", widget: "text" }
+          - { label: "Home — Story Paragraph 2", name: "home_story_paragraph2", widget: "text" }
+          - { label: "About — Opening Paragraph", name: "about_intro", widget: "text" }
+          - { label: "About — Section 1 Heading", name: "about_section1_heading", widget: "string" }
+          - { label: "About — Section 1 Text", name: "about_section1_text", widget: "text" }
+          - { label: "About — Section 2 Heading", name: "about_section2_heading", widget: "string" }
+          - { label: "About — Section 2 Text", name: "about_section2_text", widget: "text" }
+          - { label: "About — Section 3 Heading", name: "about_section3_heading", widget: "string" }
+          - { label: "About — Section 3 Text", name: "about_section3_text", widget: "text" }

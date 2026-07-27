@@ -174,7 +174,7 @@ p { margin: 0 0 1em; }
 }
 .nav-primary a:hover::after, .nav-primary a.active::after { transform: scaleX(1); transform-origin: left; }
 .brand-logo { justify-self: center; display: flex; align-items: center; }
-.brand-logo img { height: 72px; width: auto; }
+.brand-logo img { height: 110px; width: auto; }
 .brand-wordmark { font-family: var(--font-serif); font-size: 22px; letter-spacing: 0.12em; color: var(--espresso); }
 
 .icon-btn { position: relative; display: inline-flex; align-items: center; }
@@ -192,7 +192,7 @@ p { margin: 0 0 1em; }
   .header-inner { grid-template-columns: auto 1fr auto; padding: 16px 20px; }
   .nav-primary { display: none; }
   .nav-toggle { display: block; }
-  .brand-logo img { height: 56px; }
+  .brand-logo img { height: 80px; }
   .nav-secondary a.nav-text-link { display: none; }
 }
 

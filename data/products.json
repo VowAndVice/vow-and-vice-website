@@ -1,42 +1,40 @@
 {
   "products": [
     {
-      "color": "Espresso Brown",
+      "color": "Alpine Green and Navy",
       "price": 75,
-      "name": "The Signature Hoodie",
-      "slug": "signature-hoodie",
-      "materials": "400gsm heavyweight cotton-poly fleece blend. Brushed interior for softness. Ribbed cuffs and hem for structure that holds its shape wash after wash. Double-lined hood with matching drawcord.",
-      "care": "Machine wash cold, inside out, with like colors. Do not bleach. Tumble dry low or hang dry to protect the print. Warm iron on reverse only if needed — never iron directly over the artwork.",
+      "name": "Written in the Stars Hoodie",
+      "slug": "The Signature Hoodie",
+      "materials": "Crafted on the premium Independent Trading Company IND4000 hoodie.\n\n• 80% Ring-Spun Cotton / 20% Polyester\n• Heavyweight 10 oz. fleece (330 GSM)\n• Ultra-soft brushed fleece interior\n• Relaxed unisex fit\n• Double-layer hood\n• Kangaroo pocket\n• Ribbed cuffs and waistband\n• Printed to order by SwiftPOD with care",
+      "care": "Made to be lived in and loved for years.\n\n• Machine wash cold, inside out.\n• Wash with like colors using a mild detergent.\n• Tumble dry low or hang to dry.\n• Avoid bleach and dry cleaning.\n• Do not iron directly on the artwork.\n• If ironing is needed, turn the garment inside out and use a low heat setting.",
       "sizes": [
-        "XS",
         "S",
         "M",
         "L",
-        "XL",
-        "XXL"
+        "XL"
       ],
       "images": [
         {
           "type": "art",
-          "src": "images/print-dragon-crest.png",
-          "bg": "bg-espresso",
-          "label": "Front — Dragon Crest"
+          "src": "images/logo-mark.png",
+          "bg": "bg-forest",
+          "label": "Front — Signature Vow & Vice Emblem"
         },
         {
           "type": "art",
-          "src": "images/print-dragon-back.png",
-          "bg": "bg-espresso",
-          "label": "Back — Full Wingspan"
+          "src": "images/some-stories-are-destined.png",
+          "bg": "bg-forest",
+          "label": "Back — \"Some Stories Are Destined\" Artwork"
         },
         {
           "type": "fabric",
-          "bg": "bg-espresso",
-          "label": "Espresso Brown Fleece"
+          "bg": "bg-forest",
+          "label": "Green-Blue Heavyweight Fleece"
         }
       ],
       "tag": "Signature",
-      "short": "Our flagship piece — a dragon in flight across the back, its crest resting quiet over the heart.",
-      "description": "Some things are worth guarding with your life. The Signature Hoodie was built for that kind of devotion — heavyweight, brushed-fleece cotton in a deep espresso brown, with a hand-inked dragon crest resting over the heart and its full wingspan unfurled across the back. It is the piece we imagined first, and the one the whole collection was built around.",
+      "short": "Some stories are destined to stay with you. Inspired by starlit skies and unforgettable journeys, this hoodie was made for the stories you'll carry long after the final page.",
+      "description": "Some stories are destined to stay with us long after the final page. The Written in the Stars Hoodie was created for those unforgettable journeys—the ones that linger in your heart and become part of who you are. Inspired by celestial skies, quiet nights, and the magic of getting lost in a story, this piece is designed to bring comfort to every chapter.\n\nCrafted from a premium heavyweight cotton blend with a soft brushed-fleece interior, it's made to feel as timeless as the stories that inspired it. Whether you're curled up with your current read, heading out on a crisp morning, or simply carrying a little wonder into your everyday life, this hoodie is designed to become a favorite you'll reach for again and again.\n\nPremium heavyweight fabric for lasting comfort\nSoft brushed-fleece interior\nRelaxed unisex fit\nSignature celestial front emblem\n\"Some Stories Are Destined\" back artwork\nDesigned by Vow & Vice\nMade to order to reduce waste and ensure every piece is created with care\n\nI like this because it balances emotion with practical details. It tells the customer why the hoodie exists, then reinforces the quality and features without sounding like a generic product listing.",
       "category": "Hoodies"
     },
     {

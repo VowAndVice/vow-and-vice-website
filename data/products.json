@@ -38,24 +38,22 @@
       "category": "Hoodies"
     },
     {
-      "color": "Deep Taupe",
+      "color": "Dark Maroon",
       "price": 64,
       "name": "Worth the Ruin Sweatshirt",
       "slug": "worth-the-ruin-sweatshirt",
-      "materials": "360gsm cotton-poly fleece with a soft brushed hand-feel. Relaxed, dropped-shoulder fit. Reinforced seams at the sleeve for a print that lasts.",
-      "care": "Machine wash cold, inside out. Do not bleach. Tumble dry low. Cool iron on reverse only, avoiding the artwork directly.",
+      "materials": "Crafted on a premium Printify Choice heavyweight crewneck.\n\n• Soft cotton-blend fleece\n• Medium-heavyweight fabric for year-round comfort\n• Brushed fleece interior\n• Relaxed unisex fit\n• Ribbed collar, cuffs, and waistband\n• Durable construction for everyday wear\n• Printed to order through Printify",
+      "care": "Made to be worn through every chapter.\n\n• Machine wash cold, inside out, with like colors.\n• Use a mild detergent.\n• Tumble dry low or hang to dry for best results.\n• Do not bleach.\n• Do not dry clean.\n• Do not iron directly over the printed artwork.\n• If ironing is needed, turn the garment inside out and use a low heat setting.",
       "sizes": [
-        "XS",
         "S",
         "M",
         "L",
-        "XL",
-        "XXL"
+        "XL"
       ],
       "images": [
         {
           "type": "art",
-          "src": "images/print-worth-the-ruin.png",
+          "src": "images/lifestyle-2.png",
           "bg": "bg-taupe",
           "label": "Sleeve Detail"
         },
@@ -72,8 +70,8 @@
         }
       ],
       "tag": null,
-      "short": "For every heroine who chose the harder, truer thing. Gold script and scattered stars on deep taupe.",
-      "description": "There is a version of love that costs you something — and this piece is for the ones who paid it gladly. \"Worth the Ruin\" is lettered in antique gold down the sleeve, scattered with a quiet constellation, on a deep taupe fleece that feels like it's been loved for years already. Understated by day, unmistakable up close.",
+      "short": "Bold yet timeless, this signature crewneck is for those who know the greatest stories are always worth the ruin.",
+      "description": "Worth the Ruin is inspired by the stories that remind us love is rarely effortless—but always unforgettable. Created for readers who find beauty in resilience, sacrifice, and the bonds that endure, this signature crewneck blends timeless design with everyday comfort.\n\nFeaturing the \"Love Made a Weapon\" back artwork, subtle sleeve detailing, and the signature Vow & Vice crest, every element was thoughtfully designed to honor the stories that stay with us long after the final page. Whether you're spending the day with your favorite book, heading out on a crisp morning, or embracing the quiet moments in between, this crewneck is made to be worn through every chapter.\n\nCrafted from a premium heavyweight cotton blend with a soft brushed-fleece interior, it offers lasting comfort, a relaxed unisex fit, and the quality to become a staple in your wardrobe.\n\nDetails\nPremium heavyweight fleece for everyday comfort\nSoft brushed interior\nRelaxed unisex fit\nSignature Vow & Vice chest crest\n\"Love Made a Weapon\" statement back artwork\nSleeve detail reading \"Worth the Ruin\"\nDesigned by Vow & Vice\nMade to order to reduce waste and create each piece with care",
       "category": "Sweatshirts"
     },
     {
